@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="listas.primeirobimestre.MainActivity">
+
+    <item android:id="@+id/menuCalc"
+        android:title="Calc"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menuHistorico"
+        app:showAsAction="always"
+        android:title="History"/>
+
+    <item android:id="@+id/menuAluno"
+        app:showAsAction="always"
+        android:title="ABOUT"/>
+
+</menu>
